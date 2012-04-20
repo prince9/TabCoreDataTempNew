@@ -20,6 +20,15 @@
 		6684674E1541C844005C9574 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684674D1541C844005C9574 /* SecondViewController.m */; };
 		668467501541C844005C9574 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 6684674F1541C844005C9574 /* second.png */; };
 		668467521541C844005C9574 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668467511541C844005C9574 /* second@2x.png */; };
+		6684675A1541C853005C9574 /* shadowview.png in Resources */ = {isa = PBXBuildFile; fileRef = 668467581541C853005C9574 /* shadowview.png */; };
+		6684675B1541C853005C9574 /* tableviewback.png in Resources */ = {isa = PBXBuildFile; fileRef = 668467591541C853005C9574 /* tableviewback.png */; };
+		668467621541C87E005C9574 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668467611541C87E005C9574 /* MasterViewController.m */; };
+		668467651541C890005C9574 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668467641541C890005C9574 /* DetailViewController.m */; };
+		668467681541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 668467661541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodeld */; };
+		6684676A1541C8C1005C9574 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668467691541C8C1005C9574 /* CoreData.framework */; };
+		6684676C1541CC52005C9574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6684676B1541CC52005C9574 /* QuartzCore.framework */; };
+		6684677A1541D91E005C9574 /* TabCoreDataTempNewVewReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 668467791541D91E005C9574 /* TabCoreDataTempNewVewReadMe.txt */; };
+		66D3B9C91541DD4A001AB905 /* Tabback.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D3B9C81541DD4A001AB905 /* Tabback.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +36,32 @@
 		668467301541C844005C9574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		668467321541C844005C9574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		668467341541C844005C9574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		668467381541C844005C9574 /* TabCoreDataTempNewver-Info.plist */ = {isa = PBXFileReference; path = "TabCoreDataTempNewver-Info.plist"; sourceTree = "<group>"; };
+		668467381541C844005C9574 /* TabCoreDataTempNewver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabCoreDataTempNewver-Info.plist"; sourceTree = "<group>"; };
 		6684673A1541C844005C9574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6684673C1541C844005C9574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6684673E1541C844005C9574 /* TabCoreDataTempNewver-Prefix.pch */ = {isa = PBXFileReference; path = "TabCoreDataTempNewver-Prefix.pch"; sourceTree = "<group>"; };
-		6684673F1541C844005C9574 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6684673E1541C844005C9574 /* TabCoreDataTempNewver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabCoreDataTempNewver-Prefix.pch"; sourceTree = "<group>"; };
+		6684673F1541C844005C9574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		668467401541C844005C9574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		668467431541C844005C9574 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		668467451541C844005C9574 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		668467451541C844005C9574 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		668467461541C844005C9574 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		668467481541C844005C9574 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		6684674A1541C844005C9574 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		6684674C1541C844005C9574 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		6684674C1541C844005C9574 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		6684674D1541C844005C9574 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6684674F1541C844005C9574 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		668467511541C844005C9574 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		668467581541C853005C9574 /* shadowview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadowview.png; sourceTree = "<group>"; };
+		668467591541C853005C9574 /* tableviewback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableviewback.png; sourceTree = "<group>"; };
+		668467601541C87E005C9574 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		668467611541C87E005C9574 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		668467631541C890005C9574 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		668467641541C890005C9574 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		668467671541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabCoreDataTempNewver.xcdatamodel; sourceTree = "<group>"; };
+		668467691541C8C1005C9574 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6684676B1541CC52005C9574 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		668467791541D91E005C9574 /* TabCoreDataTempNewVewReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TabCoreDataTempNewVewReadMe.txt; sourceTree = "<group>"; };
+		66D3B9C81541DD4A001AB905 /* Tabback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tabback.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6684676C1541CC52005C9574 /* QuartzCore.framework in Frameworks */,
+				6684676A1541C8C1005C9574 /* CoreData.framework in Frameworks */,
 				668467311541C844005C9574 /* UIKit.framework in Frameworks */,
 				668467331541C844005C9574 /* Foundation.framework in Frameworks */,
 				668467351541C844005C9574 /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +83,8 @@
 		668467211541C844005C9574 = {
 			isa = PBXGroup;
 			children = (
+				6684676B1541CC52005C9574 /* QuartzCore.framework */,
+				668467691541C8C1005C9574 /* CoreData.framework */,
 				668467361541C844005C9574 /* TabCoreDataTempNewver */,
 				6684672F1541C844005C9574 /* Frameworks */,
 				6684672D1541C844005C9574 /* Products */,
@@ -88,6 +112,10 @@
 		668467361541C844005C9574 /* TabCoreDataTempNewver */ = {
 			isa = PBXGroup;
 			children = (
+				66D3B9C81541DD4A001AB905 /* Tabback.png */,
+				668467791541D91E005C9574 /* TabCoreDataTempNewVewReadMe.txt */,
+				668467581541C853005C9574 /* shadowview.png */,
+				668467591541C853005C9574 /* tableviewback.png */,
 				6684673F1541C844005C9574 /* AppDelegate.h */,
 				668467401541C844005C9574 /* AppDelegate.m */,
 				668467421541C844005C9574 /* MainStoryboard.storyboard */,
@@ -100,6 +128,11 @@
 				6684674F1541C844005C9574 /* second.png */,
 				668467511541C844005C9574 /* second@2x.png */,
 				668467371541C844005C9574 /* Supporting Files */,
+				668467601541C87E005C9574 /* MasterViewController.h */,
+				668467611541C87E005C9574 /* MasterViewController.m */,
+				668467631541C890005C9574 /* DetailViewController.h */,
+				668467641541C890005C9574 /* DetailViewController.m */,
+				668467661541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodeld */,
 			);
 			path = TabCoreDataTempNewver;
 			sourceTree = "<group>";
@@ -171,6 +204,10 @@
 				6684674B1541C844005C9574 /* first@2x.png in Resources */,
 				668467501541C844005C9574 /* second.png in Resources */,
 				668467521541C844005C9574 /* second@2x.png in Resources */,
+				6684675A1541C853005C9574 /* shadowview.png in Resources */,
+				6684675B1541C853005C9574 /* tableviewback.png in Resources */,
+				6684677A1541D91E005C9574 /* TabCoreDataTempNewVewReadMe.txt in Resources */,
+				66D3B9C91541DD4A001AB905 /* Tabback.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +222,9 @@
 				668467411541C844005C9574 /* AppDelegate.m in Sources */,
 				668467471541C844005C9574 /* FirstViewController.m in Sources */,
 				6684674E1541C844005C9574 /* SecondViewController.m in Sources */,
+				668467621541C87E005C9574 /* MasterViewController.m in Sources */,
+				668467651541C890005C9574 /* DetailViewController.m in Sources */,
+				668467681541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +336,22 @@
 				668467571541C844005C9574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		668467661541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				668467671541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodel */,
+			);
+			currentVersion = 668467671541C8AF005C9574 /* TabCoreDataTempNewver.xcdatamodel */;
+			path = TabCoreDataTempNewver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 668467231541C844005C9574 /* Project object */;
 }

@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *textInput;
+@property (weak, nonatomic) IBOutlet UITextField *textInput2;
+
+//セルを作る
+- (IBAction)add:(id)sender;
+
+//キーボードを隠す
+- (IBAction)keyHide:(id)sender;
+- (IBAction)keyHide2:(id)sender;
+
 
 @end
